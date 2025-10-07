@@ -15,7 +15,8 @@ export const HeroSection = () => {
                 </h1>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    I am an aspiring Junior Software Developer  ....
+                    I’m a recent Software Engineering graduate with practical experience in full-stack development.
+                    I love creating user-friendly applications and learning new technologies along the way.
                 </p>
 
                 <div className="opacity-0 animate-fade-in-delay-4 pt-4"> 
