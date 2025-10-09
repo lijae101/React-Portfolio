@@ -30,7 +30,7 @@ export const ContactSection = () => {
                 Get In <span className="text-primary">Touch</span>
             </h2>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Something about getting in Touch with me to collaborate?
+                I’m open to collaboration and new opportunities — feel free to reach out to discuss ideas or projects.
 
             </p>
 
