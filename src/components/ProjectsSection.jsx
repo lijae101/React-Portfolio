@@ -32,6 +32,28 @@ const projects = [
         tags: ["HTML", "CSS", "JavaScript", "EJS", "Websockets", "Tailwind", "Node.js", "Express", "MongoDB"],
         demoUrl: "#",
         githubUrl: "https://github.com/gu1dosan/2800-202410-BBY15"
+    },
+
+    {
+
+        id: 4,
+        title: "Pokedex Website",
+        description: "A responsive web application built with JavaScript, jQuery, Bootstrap, and the PokeAPI. Features include dynamic data fetching, pagination, type-based filtering, and detailed Pokémon evolution chains.",
+        image: "projects/project4.png",
+        tags: ["HTML", "CSS", "JavaScript", "jQuery", "Axios", "PokeAPI"],
+        demoUrl: "https://exquisite-marzipan-e77a10.netlify.app/",
+        githubUrl: "#"
+    },
+
+    {
+
+        id: 5,
+        title: "Pokemon Memory Game",
+        description: "Pokemon-themed memory card game built with HTML, CSS, and JavaScript.",
+        image: "projects/project5.png",
+        tags: ["HTML", "CSS", "JavaScript", "jQuery", "Async/Await", "PokeAPI"],
+        demoUrl: "https://melodious-pasca-03349e.netlify.app/",
+        githubUrl: "#"
     }
 
 ]
