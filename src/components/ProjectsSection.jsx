@@ -54,8 +54,17 @@ const projects = [
         tags: ["HTML", "CSS", "JavaScript", "jQuery", "Async/Await", "PokeAPI"],
         demoUrl: "https://melodious-pasca-03349e.netlify.app/",
         githubUrl: "#"
-    }
+    },
 
+    {
+        id: 6,
+        title: "React Movie App",
+        description: "A React-based movie app that lets users search for films and view trending movies that update dynamically based on recent searches.",
+        image: "projects/project6.png",
+        tags: ["HTML", "CSS", "JavaScript", "React", "API", "Tailwind", "Appwrite"],
+        demoUrl: "https://react-movie-app-three-pi.vercel.app/",
+        githubUrl: "https://github.com/lijae101/React_MovieApp"
+    }
 ]
 
 
