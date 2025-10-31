@@ -4,7 +4,7 @@ import { Moon, Sun } from "lucide-react"; // or from another icon package
 import { cn } from "../lib/utils";
 
 export const ThemeToggle = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(true);
     //UseEffect to read theme value in local Storage
     useEffect(() => {
         const storedTheme = localStorage.getItem("theme")

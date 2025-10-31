@@ -3,32 +3,32 @@ import { cn } from "../lib/utils"
 
 const skills = [
     //Frontend
-    {name: "HTML/CSS", level: 90, category: "frontend"},
+    {name: "HTML/CSS", level: 80, category: "frontend"},
     {name: "JavaScript", level: 90, category: "frontend"},
     {name: "React", level: 80, category: "frontend"},
-    {name: "Tailwind", level: 75, category: "frontend"},
-    {name: "Bootstrap", level: 85, category: "frontend"},
+    {name: "Tailwind", level: 70, category: "frontend"},
+    {name: "Bootstrap", level: 70, category: "frontend"},
     
 
     //Backend and general Languages
-    {name: "Node.js", level: 90, category: "backend"},
-    {name: "Express", level: 85, category: "backend"},
-    {name: "MySQL", level: 80, category: "backend"},
-    {name: "Python", level: 90, category: "backend"},
-    {name: "Java", level: 85, category: "backend"},
-    {name: "C++", level: 80, category: "backend"},
-    {name: "C", level: 75, category: "backend"},
-    {name: "ASP.NET", level: 80, category: "backend"},
+    {name: "Node.js", level: 80, category: "backend"},
+    {name: "Express", level: 80, category: "backend"},
+    {name: "MySQL", level: 75, category: "backend"},
+    {name: "Python", level: 85, category: "backend"},
+    {name: "Java", level: 75, category: "backend"},
+    {name: "C++", level: 60, category: "backend"},
+    {name: "C", level: 50, category: "backend"},
+    {name: "ASP.NET", level: 60, category: "backend"},
     
 
     //Tools
-    {name: "Git/GitHub", level: 90, category: "tools"},
-    {name: "Figma", level: 85, category: "tools"},
-    {name: "Docker", level: 75, category: "tools"},
-    {name: "Selenium", level: 80, category: "tools"},
+    {name: "Git/GitHub", level: 80, category: "tools"},
+    {name: "Figma", level: 80, category: "tools"},
+    {name: "Docker", level: 70, category: "tools"},
+    {name: "Selenium", level: 70, category: "tools"},
     {name: "Apache Tomcat", level: 80, category: "tools"},
     {name: "Postman", level: 80, category: "tools"},
-    {name: "AWS Lambda", level: 70, category: "tools"},
+    {name: "AWS Lambda", level: 50, category: "tools"},
      
 ]
 
