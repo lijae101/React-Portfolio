@@ -3,33 +3,35 @@ import { cn } from "../lib/utils"
 
 const skills = [
     //Frontend
-    {name: "HTML/CSS", level: 80, category: "frontend"},
-    {name: "JavaScript", level: 90, category: "frontend"},
-    {name: "React", level: 80, category: "frontend"},
-    {name: "Tailwind", level: 70, category: "frontend"},
-    {name: "Bootstrap", level: 70, category: "frontend"},
-    
+    { name: "HTML/CSS", level: 80, category: "frontend" },
+    { name: "JavaScript", level: 90, category: "frontend" },
+    { name: "React", level: 80, category: "frontend" },
+    { name: "Tailwind", level: 70, category: "frontend" },
+    { name: "Bootstrap", level: 70, category: "frontend" },
+
 
     //Backend and general Languages
-    {name: "Node.js", level: 80, category: "backend"},
-    {name: "Express", level: 80, category: "backend"},
-    {name: "MySQL", level: 75, category: "backend"},
-    {name: "Python", level: 85, category: "backend"},
-    {name: "Java", level: 75, category: "backend"},
-    {name: "C++", level: 60, category: "backend"},
-    {name: "C", level: 50, category: "backend"},
-    {name: "ASP.NET", level: 60, category: "backend"},
-    
+    { name: "Node.js", level: 80, category: "backend" },
+    { name: "Appwrite", level: 70, category: "backend" },
+
+    { name: "Express", level: 80, category: "backend" },
+    { name: "MySQL", level: 75, category: "backend" },
+    { name: "Python", level: 85, category: "backend" },
+    { name: "Java", level: 75, category: "backend" },
+    { name: "C++", level: 60, category: "backend" },
+    { name: "C", level: 50, category: "backend" },
+    { name: "ASP.NET", level: 60, category: "backend" },
+
 
     //Tools
-    {name: "Git/GitHub", level: 80, category: "tools"},
-    {name: "Figma", level: 80, category: "tools"},
-    {name: "Docker", level: 70, category: "tools"},
-    {name: "Selenium", level: 70, category: "tools"},
-    {name: "Apache Tomcat", level: 80, category: "tools"},
-    {name: "Postman", level: 80, category: "tools"},
-    {name: "AWS Lambda", level: 50, category: "tools"},
-     
+    { name: "Git/GitHub", level: 80, category: "tools" },
+    { name: "Figma", level: 80, category: "tools" },
+    { name: "Docker", level: 70, category: "tools" },
+    { name: "Selenium", level: 70, category: "tools" },
+    { name: "Apache Tomcat", level: 80, category: "tools" },
+    { name: "Postman", level: 80, category: "tools" },
+    { name: "AWS Lambda", level: 50, category: "tools" },
+
 ]
 
 const categories = ["all", "frontend", "backend", "tools"]
@@ -38,7 +40,7 @@ export const SkillsSection = () => {
 
     const [activeCategory, setActiveCategory] = useState("all")
     const filteredSkills = skills.filter(
-        (skill) => activeCategory === "all" || skill.category ===activeCategory)
+        (skill) => activeCategory === "all" || skill.category === activeCategory)
 
     return <section id="skills" className="py-24 px-4 relative bg-secondary/30">
         <div className="container mx-auto max-w-5xl">
@@ -49,10 +51,10 @@ export const SkillsSection = () => {
             <div className="flex flex-wrap justify-center gap-4 mb-12">
                 {categories.map((category, key) => (
                     <button key={key}
-                    onClick={() => setActiveCategory(category)} 
-                    className={cn("px-5 py-2 rounded-full transition-colors duration-300 capitalize",
-                        activeCategory === category ? "bg-primary text-primary-foreground" : "bg-secondary/70 text-foreground hover:bd-secondary"
-                    )}>
+                        onClick={() => setActiveCategory(category)}
+                        className={cn("px-5 py-2 rounded-full transition-colors duration-300 capitalize",
+                            activeCategory === category ? "bg-primary text-primary-foreground" : "bg-secondary/70 text-foreground hover:bd-secondary"
+                        )}>
                         {category}
                     </button>
                 ))}
@@ -68,7 +70,7 @@ export const SkillsSection = () => {
                         </div>
                         <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
                             <div className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
-                            style={{width: skill.level + "%"}} />
+                                style={{ width: skill.level + "%" }} />
 
                         </div>
                         <div className="text-right mt-1">

@@ -64,7 +64,19 @@ const projects = [
         tags: ["HTML", "CSS", "JavaScript", "React", "API", "Tailwind", "Appwrite"],
         demoUrl: "https://react-movie-app-three-pi.vercel.app/",
         githubUrl: "https://github.com/lijae101/React_MovieApp"
+    },
+
+     {
+        id: 7,
+        title: "Travel Agency Dashboard",
+        description: "Create and manage AI-generated trips using an admin Travel Agency Dashboard",
+        image: "projects/project7.png",
+        tags: ["React", "Gemini AI", "Typescript", "React", "Appwrite", "Syncfusion", "Unsplash"],
+        demoUrl: "https://travel-dashboard-dusky.vercel.app/",
+        githubUrl: "https://github.com/lijae101/Travel_Dashboard"
     }
+
+
 ]
 
 
