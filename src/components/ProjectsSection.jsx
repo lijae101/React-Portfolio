@@ -74,6 +74,16 @@ const projects = [
         tags: ["React", "Gemini AI", "Typescript", "React", "Appwrite", "Syncfusion", "Unsplash"],
         demoUrl: "https://travel-dashboard-dusky.vercel.app/",
         githubUrl: "https://github.com/lijae101/Travel_Dashboard"
+    },
+
+    {
+        id: 8,
+        title: "CryptoTracker",
+        description: "Real-time tracking of cryptocurrency prices and market trends, built with React and integrated with a public API for live data.",
+        image: "projects/project8.png",
+        tags: ["React", "Javascript", "React", "API"],
+        demoUrl: "https://crypto-tracker-bay-zeta.vercel.app/",
+        githubUrl: "https://github.com/lijae101/CryptoTracker"
     }
 
 
